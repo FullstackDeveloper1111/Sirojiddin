@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -140,7 +142,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/gmail.php" method="post" role="form" class="php-email-form" autocomplete="off">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -153,14 +155,14 @@
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" name="submit" id="name">Send Message</button></div>
             </form>
 
           </div>
@@ -176,7 +178,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span><a href="https://sirojiddin-sapayev.netlify.app/">Sirojiddin.uz</a></span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span><a href="https://sirojiddinsapayev.netlify.app/">Sirojiddin.uz</a></span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
